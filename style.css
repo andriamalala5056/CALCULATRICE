@@ -1,0 +1,60 @@
+.container {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.imput {
+	width: 376px;
+	background-color: #000;
+	color: #8dff00;
+	padding: 12px;
+	height: 56px;
+}
+
+.dv {
+	float: left;
+}
+
+button {
+	width: 100px;
+	height: 100px;
+	font-size: 28px;
+}
+
+.dvc {
+	width: 100%;
+}
+
+@font-face{
+	font-family:'digital-clock-font';
+	src: url('DS-DIGIT.TTF');
+}
+
+#formule {
+	font-family: digital-clock-font;
+	background: none;
+    border: 0px;
+    color: red;
+    width: 376px;
+    font-size: 20px;
+}
+
+#result {
+	font-family: digital-clock-font;
+	font-size: 34px;
+}
+
+.num {
+	background-color: #c8afaf;
+}
+
+.oth {
+	background-color: #898989;
+	color: #FFF;
+}
+
+.clear {
+	background-color: #ae0000;
+	color: #FFF;
+}

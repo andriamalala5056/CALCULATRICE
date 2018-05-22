@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Calculatrice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+	<div class="imput">
+		<div class="dvc"> 
+			<input type="text" value="" id="formule" />
+		</div>
+		<div class="dvc">
+			<div id="result"></div>
+		</div>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(1);">1</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(2);">2</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(3);">3</button>
+	</div>
+	<div class="dv">
+		<button class="clear" onclick="erase()">C</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(4);">4</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(5);">5</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(6);">6</button>
+	</div>
+	<div class="dv">
+		<button class="oth" onclick="click_touch('*');">*</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(7);">7</button> 
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(8);">8</button>  
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(9);">9</button> 
+	</div>
+	<div class="dv">
+		<button class="oth" onclick="click_touch('/');">/</button>
+	</div>
+	<div class="dv">
+		<button class="num" onclick="click_touch(0);">0</button>
+	</div>
+	<div class="dv">
+		<button class="oth" onclick="click_touch('+');">+</button>
+	</div>
+	<div class="dv">
+		<button class="oth" onclick="click_touch('-');">-</button>
+	</div>
+	<div class="dv">
+		<button class="oth" id="egal" onclick="egal();">=</button>
+	</div>
+</div>
+</body>
+	<script type="text/javascript" src="jquery.js"></script>
+</html>
