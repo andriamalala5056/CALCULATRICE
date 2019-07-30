@@ -4,6 +4,10 @@
 	margin-top: 70px;
 }
 
+* {
+	outline: none;
+}
+
 .imput {
 	width: 376px;
 	background-color: #000;
